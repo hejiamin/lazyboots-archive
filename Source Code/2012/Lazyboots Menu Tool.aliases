@@ -1,0 +1,6 @@
+[My Computer]
+My Computer = "192.168.31.172"
+
+[RT Single-Board RIO]
+RT Single-Board RIO = "0.0.0.0"
+

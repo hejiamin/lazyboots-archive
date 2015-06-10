@@ -1,0 +1,10 @@
+[MENU]
+MENU1=SLK\Lazyboots Menu Tool\Public\ResizePanel__slk_mt.vi
+MENU2=SLK\Lazyboots Menu Tool\Public\SetLabelPosition__slk_mt.vi
+MENU3=SLK\Lazyboots Menu Tool\Public\AddError__slk_mt.vi
+MENU4=SLK\Lazyboots Menu Tool\Public\AddErrorCase__slk_mt.vi
+MENU5=SLK\Lazyboots Menu Tool\Public\WireTunnel__slk_mt.vi
+MENU6=SLK\Lazyboots Menu Tool\Public\CreateEnum__slk_mt.vi
+MENU7=SLK\Lazyboots Menu Tool\Public\AddLabel__slk_mt.vi
+MENU8=SLK\Lazyboots Menu Tool\Public\CaseMonitor__slk_mt.vi
+MENU9=SLK\Lazyboots Menu Tool\Public\MenuToolOptions__slk_mt.vi
