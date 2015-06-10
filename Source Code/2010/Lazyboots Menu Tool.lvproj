@@ -11,16 +11,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="BSD License" Type="Folder">
-			<Item Name="BSD License.rtf" Type="Document" URL="../../BSD License/BSD License.rtf"/>
+			<Item Name="BSD License.rtf" Type="Document" URL="../../../BSD License/BSD License.rtf"/>
 		</Item>
 		<Item Name="Graphics" Type="Folder">
-			<Item Name="Banner.bmp" Type="Document" URL="../../Graphics/Banner.bmp"/>
-			<Item Name="Welcome.bmp" Type="Document" URL="../../Graphics/Welcome.bmp"/>
+			<Item Name="Banner.bmp" Type="Document" URL="../../../Graphics/Banner.bmp"/>
+			<Item Name="Welcome.bmp" Type="Document" URL="../../../Graphics/Welcome.bmp"/>
 		</Item>
 		<Item Name="Lazyboots Menu Tool Launch.lvlib" Type="Library" URL="../Lazyboots Menu Tool/_Library/Lazyboots Menu Tool Launch.lvlib"/>
 		<Item Name="Lazyboots Menu Tool.lvlib" Type="Library" URL="../_Lazyboots Menu Tool/Library/Lazyboots Menu Tool.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -37,7 +38,7 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -50,6 +51,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="OffsetRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/PictureSupport.llb/OffsetRect.vi"/>
 				<Item Name="POffsetRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/PictureSupport.llb/POffsetRect.vi"/>
@@ -107,6 +109,7 @@
 				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
 				<Property Name="INST_requireLVDevSys" Type="Bool">true</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">10000000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Liang Liu</Property>
 				<Property Name="MSI_arpContact" Type="Str">shawn.liu.cn@gmail.com</Property>
 				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/Graphics/Banner.bmp</Property>
@@ -150,7 +153,7 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Distribution/project/Lazyboots Menu Tool</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Distribution/project/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Distribution/project/NI_AB_PROJECTNAME</Property>
@@ -158,7 +161,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Distribution/project/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{23E598F7-CBDD-4EF9-8165-48346910C66B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CB384456-F7C0-4A09-906A-692DA062C2DD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Lazyboots Menu Tool Launch.lvlib</Property>
@@ -184,7 +187,7 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Distribution/vi.lib/SLK/Lazyboots Menu Tool</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Distribution/vi.lib/SLK/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Distribution/vi.lib/SLK/NI_AB_PROJECTNAME</Property>

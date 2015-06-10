@@ -11,11 +11,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="BSD License" Type="Folder">
-			<Item Name="BSD License.rtf" Type="Document" URL="../../BSD License/BSD License.rtf"/>
+			<Item Name="BSD License.rtf" Type="Document" URL="../../../BSD License/BSD License.rtf"/>
 		</Item>
 		<Item Name="Graphics" Type="Folder">
-			<Item Name="Banner.bmp" Type="Document" URL="../../Graphics/Banner.bmp"/>
-			<Item Name="Welcome.bmp" Type="Document" URL="../../Graphics/Welcome.bmp"/>
+			<Item Name="Banner.bmp" Type="Document" URL="../../../Graphics/Banner.bmp"/>
+			<Item Name="Welcome.bmp" Type="Document" URL="../../../Graphics/Welcome.bmp"/>
 		</Item>
 		<Item Name="Lazyboots Menu Tool Launch.lvlib" Type="Library" URL="../Lazyboots Menu Tool/_Library/Lazyboots Menu Tool Launch.lvlib"/>
 		<Item Name="Lazyboots Menu Tool.lvlib" Type="Library" URL="../_Lazyboots Menu Tool/Library/Lazyboots Menu Tool.lvlib"/>
@@ -38,7 +38,7 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -109,7 +109,7 @@
 				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
 				<Property Name="INST_requireLVDevSys" Type="Bool">true</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">11018013</Property>
+				<Property Name="InstSpecVersion" Type="Str">11000000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Liang Liu</Property>
 				<Property Name="MSI_arpContact" Type="Str">shawn.liu.cn@gmail.com</Property>
 				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/Graphics/Banner.bmp</Property>
