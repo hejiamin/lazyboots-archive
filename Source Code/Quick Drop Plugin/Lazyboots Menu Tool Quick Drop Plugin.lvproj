@@ -10,8 +10,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="BSD License" Type="Folder">
+			<Item Name="BSD License.rtf" Type="Document" URL="../../../BSD License/BSD License.rtf"/>
+		</Item>
 		<Item Name="Configurations" Type="Folder">
 			<Item Name="Lazyboots Menu Tool" Type="Document" URL="../Lazyboots Menu Tool"/>
+		</Item>
+		<Item Name="Graphics" Type="Folder">
+			<Item Name="Banner.bmp" Type="Document" URL="../../../Graphics/Banner.bmp"/>
+			<Item Name="Welcome.bmp" Type="Document" URL="../../../Graphics/Welcome.bmp"/>
 		</Item>
 		<Item Name="Quick Drop Plugins" Type="Folder">
 			<Item Name="1. Resize Panel.vi" Type="VI" URL="../1. Resize Panel.vi"/>
@@ -93,9 +100,13 @@
 				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">10000000</Property>
+				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/Graphics/Banner.bmp</Property>
 				<Property Name="MSI_distID" Type="Str">{0622EDCC-B8E9-420C-894D-D33E594380DD}</Property>
+				<Property Name="MSI_licenseID" Type="Ref">/My Computer/BSD License/BSD License.rtf</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{C0686FEE-423B-4F6D-B0A8-C9A0B9088454}</Property>
+				<Property Name="MSI_welcomeImageID" Type="Ref">/My Computer/Graphics/Welcome.bmp</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Quick Drop Plugin for Lazyboots Menu Tool</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
